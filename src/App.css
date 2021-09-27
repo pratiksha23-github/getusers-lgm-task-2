@@ -1,0 +1,140 @@
+body {
+  background-color: rgba(228, 225, 219, 1);
+}
+
+button {
+  color: white !important;
+  font-weight: 600;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color: crimson;
+  padding: 12px 10px;
+  margin-top: -50px;
+}
+
+#main h1 {
+  font-style: oblique;
+  color: forestgreen;
+  text-align: center;
+}
+
+button:hover {
+  transition: 200ms;
+  scale: 1.03;
+  background-color: rgb(168, 52, 85);
+  cursor: pointer;
+}
+
+.column-1 {
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+
+.column-2 {
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+
+.row {
+  height: 50px;
+  padding: 20px 50px 0px 30px;
+}
+
+.box {
+  background-color: rgb(31, 27, 27) !important;
+  color: #ff0062;
+  padding-bottom: 2px;
+
+}
+
+.box-2 {
+  margin-left: 100px;
+}
+
+.avatar {
+  border-radius: 15px;
+}
+
+
+.column-3 {
+  float: left !important;
+  width: 33% !important;
+}
+
+h2 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+/* background image */
+.backimage {
+  width: 100%;
+}
+
+
+
+.profile {
+  border: 1.5px initial rgb(160, 33, 86);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 300px;
+  margin: 20px 50px;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  background-color: rgb(97, 211, 116);
+  border-radius: 20px;
+}
+
+.profile:hover {
+  transition: 400ms;
+  box-shadow: 0 8px 16px 0 hsla(144, 82%, 9%, 0.582);
+  /* transform: translateY(-10px); */
+  transition: all 300ms ease;
+  transform: scale(1.05);
+  cursor: pointer;
+
+}
+
+.email {
+  color: rgb(86, 12, 129);
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  color: crimson;
+}
+
+
+@media screen and (max-width: 600px) {
+  .profile {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .name {
+    font-size: medium;
+  }
+
+  .column-3 {
+    float: left;
+    margin-left: 60px;
+  }
+
+  .email {
+    font-size: small;
+  }
+
+  .box {
+    width: 110vh;
+  }
+
+}
